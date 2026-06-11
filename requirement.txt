@@ -1,0 +1,120 @@
+
+
+!!pip install faiss-cpu
+import pandas as pd
+from sentence_transformers import SentenceTransformer
+import faiss
+import numpy as np
+import pandas as pd
+import pickle
+import os
+import glob
+
+
+
+import pandas as pd
+import re
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+import os
+
+
+
+
+import os
+
+from sentence_transformers import SentenceTransformer
+import faiss, pickle, numpy as np
+
+
+import torch
+
+m
+
+import pandas as pd
+from transformers import AutoTokenizer
+import os
+
+
+
+
+import json
+
+import os
+
+
+
+import glob
+
+
+
+from transformers import (
+    AutoModelForCausalLM, AutoTokenizer,
+    TrainingArguments, Trainer, DataCollatorForLanguageModeling
+)
+from torch.utils.data import Dataset
+import torch, json
+import os
+from google.colab import userdata
+import pandas as pd # Added import for data processing
+import re # Added import for text cleaning
+import nltk # Added import for nltk.download
+
+
+#
+
+from sentence_transformers import SentenceTransformer
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import faiss, pickle, numpy as np, torch
+
+
+
+
+import re
+
+
+
+
+from collections import deque
+import re # Needed for safety_check
+from sentence_transformers import SentenceTransformer # Needed for rag_respond
+from transformers import AutoModelForCausalLM, AutoTokenizer # Needed for rag_respond
+import faiss, pickle, numpy as np, torch # Needed for rag_respond
+
+
+from transformers import pipeline
+
+
+
+# Install detoxify
+!pip install detoxify
+
+# IMPORTS
+import numpy as np
+import re
+import faiss
+import pickle
+import torch
+
+from detoxify import Detoxify
+from sentence_transformers import SentenceTransformer
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline # Combine pipeline here
+
+
+#import json, datetime, uuid
+
+
+import time
+
+import streamlit as st
+
+
+
+import pytest
+import re
+import faiss
+import pickle
+import numpy as np
+from sentence_transformers import SentenceTransformer
+from detoxify import Detoxify
